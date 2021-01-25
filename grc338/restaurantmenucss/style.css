@@ -1,0 +1,53 @@
+/* CSS DOCUMENT */
+
+h1 {
+	text-align: center;
+	color: cornflowerblue;
+	font-size: 3.5em;
+	padding: 1em 2em 0em 2em;
+	font-family: "Lucida Console", sans-serif;
+}
+
+h2 {
+	text-align: center;
+	color: lightsteelblue;
+	font-family: sans-serif;
+}
+
+h3 {
+	margin-top: 2.2em;
+	margin-bottom: 2em;
+	text-align: center;
+	color: cornflowerblue;
+	font-size: 1.75em;
+	font-family: "Lucida Console", sans-serif;
+	padding: 1.5em 2em 1.5em 2em;
+	border-style: dotted;
+}
+
+h4 {
+	margin: 0em 2em 0em 0em;
+	text-align: center;
+	color: lightsteelblue;
+	font-size: 1.25em;
+	font-family: sans-serif;
+}
+
+p {
+	margin-right: 2em;
+	text-align: center;
+	color: white;
+	font-family: "Helvetica", "Verdana", sans-serif;
+}
+
+.price {
+	margin-bottom: 7em;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	background-color: rgb(0, 20, 33);
+}
