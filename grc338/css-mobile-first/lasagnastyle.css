@@ -1,0 +1,78 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/gvu8dsz.css");
+img {
+	width: 100%;
+	/*Please leave this line.*/
+	padding: 1.5em 0em 1.5em 0em;
+	background-color: rgb(134, 157, 122);
+}
+
+h1 {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-family: essonnes-text, serif;
+	font-weight: 700;
+	font-style: normal;
+	background-color: rgb(189, 85, 83);
+	padding: .75em 0em .75em 0em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1em;
+	font-family: essonnes-text, serif;
+	font-weight: 400;
+	font-style: italic;
+	margin-top: 2em;
+}
+
+figcaption {
+	margin: 1.5em 0em 0em 0em;
+	font-family: mrs-eaves, serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h3 {
+	margin: 2em 1em 1.5em 3.75em;
+	font-family: essonnes-text, serif;
+	font-weight: 700;
+	font-style: normal;
+	content: "";
+	display: block;
+	width: 50%;
+	padding-top: 20px;
+	border-bottom: dotted;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin: 1em 2em 1em 2em;
+	font-family: mrs-eaves, serif;
+	font-size: 1.1em;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.directions {
+	margin-bottom: 5em;
+}
+
+footer {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-family: essonnes-text, serif;
+	font-weight: 700;
+	font-style: normal;
+	background-color: rgb(189, 85, 83);
+	padding-bottom: .01em;
+	padding-top: .01em;
+}
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
