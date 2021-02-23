@@ -1,0 +1,130 @@
+/*CSS DOCUMENT*/
+
+@import url("https://use.typekit.net/rte8xkq.css");
+img {
+	width: 100%;
+}
+
+div.spread {
+	width: 90%;
+	margin: auto;
+}
+
+figure {
+	margin-top: 2.5em;
+	margin-bottom: 3em
+}
+
+figcaption {
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	padding: 0.75em 0em 0.75em 1em;
+	background-color: #A467A3;
+	color: rgb(255, 248, 244);
+	font-size: 0.9em;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	list-style: none;
+	text-transform: uppercase;
+	margin: 2em 0em 0em 4.2em;
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 0.05em;
+}
+
+nav ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #cccccc;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-bottom: 2em;
+}
+
+h1 {
+	width: 10em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	font-family: lato, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	color: rgb(164, 103, 163);
+}
+
+h3 {
+	font-family: lato, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 4em 0em 2em 1em;
+	color: rgb(164, 103, 163);
+}
+
+h4 {
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: uppercase;
+	margin-left: 1em;
+}
+
+p {
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 1em 1em 3em 1em;
+}
+
+p.description {
+	margin-bottom: .2em;
+}
+
+p.price {
+	margin-bottom: 5em;
+}
+
+p.locationtxt {
+	margin-bottom: 1em;
+}
+
+body {
+	background-color: rgb(255, 248, 244);
+}
+
+footer {
+	font-family: lato, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	background-color: #A467A3;
+	color: rgb(255, 248, 244);
+	padding: 1em 0em 1em 0em;
+}
+
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
