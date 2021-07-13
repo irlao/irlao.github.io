@@ -1,0 +1,94 @@
+/*CSS document*/
+
+@import url("https://use.typekit.net/mhk2sut.css");
+body {}
+
+div.container {
+	max-width: 40em;
+	margin: auto;
+}
+
+section {
+	margin-bottom: 6em;
+}
+
+section.historymain {
+	margin-bottom: 3em;
+}
+
+section.cozymain {
+	margin-bottom: 3em;
+}
+
+figure {
+	margin: 0;
+}
+
+img {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+nav ul li {
+	display: inline;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin: 1em 3em 3em 0em;
+}
+
+nav ul li a {
+	color: #777777;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+h1 {
+	width: 30%;
+}
+
+h2 {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #ee7674;
+}
+
+h3 {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #ee7674;
+}
+
+p {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	margin-bottom: 2em;
+}
+
+section a {
+	color: #000000;
+	text-decoration: none;
+}
+
+figcaption {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	margin-bottom: 4em;
+}
+
+body {
+	background-color: #fbf5f1;
+}
