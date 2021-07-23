@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title>Amigurumi Collective</title>
+      <!-- ★ Please include a proper title.-->
+      <!-- Helpful meta tags to fight GitHub aggresive caching-->
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" />
+   </head>
+   <body>
+      <div class="newsletter">
+         <header>
+            <h1> 
+               <a href="index.html">
+               <img src="logo.png" alt="Blue and white logo of Amigurumi Collective."> 
+               </a>
+            </h1>
+            <!-- ★ Please use a proper alt attribute.-->
+            <nav>
+               <ul>
+                  <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="newsletter.html">Subscribe</a></li>
+               </ul>
+            </nav>
+         </header>
+         <form>
+            <section class="personal-info">
+               <h2>Personal Information</h2>
+               <ul class="personal-info">
+                  <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" /></li>
+                  <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
+               </ul>
+            </section>
+            <section class="options">
+               <h2>Newsletter Options</h2>
+               <p>Choose all that you wish to subscribe to</p>
+               <ul class="options">
+                  <li><input type="checkbox" id="a1-sauce" value="a1-sauce" /> <label for="a1-sauce">Daily Amigurumi Prompts</label></li>
+                  <li><input type="checkbox" id="barbecue-sauce" value="barbecue-sauce" /> <label for="barbecue-sauce">Deals and Discounts</label></li>
+                  <li><input type="checkbox" id="green-peppers" value="green-peppers" /> <label for="green-peppers">Amigurumi News</label></li>
+                  <li><input type="checkbox" id="grilled-mushrooms" value="grilled-mushrooms" /> <label for="grilled-mushrooms"> Amigurumi Collective Updates</label></li>
+               </ul>
+            </section>
+            <section>
+               <button type="order">Order</button>
+            </section>
+         </form>
+         <figure class="newsletter">
+            <img src="tako.jpg" alt="Two crochet octopi stacked on one another.">
+         </figure>
+         <footer>
+            <p class="footer"> All rights reserved.</p>
+         </footer>
+      </div>
+   </body>
+</html>
